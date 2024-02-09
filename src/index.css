@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+  background-color:#2C3E50 !important;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+.logo{
+  background-color:#2C3E50 !important;
+  font-size: 32px;
+  font-weight: 700;
+}
+.copRight{
+  background-color: #1A252F;
+}
+.footer{
+  background-color: #2C3E50;
+}
+.about{
+background-color: #1ABC9C;
+}
+.line{
+  height: 4px;
+  width: 80px;
+background-color: #fff;
+}
+.abouthead{
+  font-size: 39px !important;
+  font-weight: 900 !important;
+}
+.home{
+  background-color: #1ABC9C;
+
+}
+.home img{
+  width: 250px;
+}
+h1{
+  font-size: 32px;
+  font-weight: 900;
+
+}
+.contacthead{
+  font-size: 39px !important;
+  font-weight: 900 !important;
+  color: #2C3E50;
+}
+.linedark{
+  height: 4px;
+  width: 80px;
+  background-color: #2C3E50;
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+background-color: #1ABC9C;
+color: #fff;
+
+}
+.layer{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+.icons{
+  font-size: 90px;
+  
+}
+.layer:hover{
+  opacity: 1;
+}
+
+.active{
+  background-color: #1ABC9C;
+  border-radius: 10px;
+}
+.model{
+  height: 100vh !important;
+}
